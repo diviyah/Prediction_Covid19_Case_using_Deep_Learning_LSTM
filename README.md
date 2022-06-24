@@ -6,14 +6,24 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
+
+
 # Prediction_Covid19_Case_using_Deep_Learning_LSTM
 ## Created a deep learning model using LSTM neural network to predict new cases in Malaysia using the past 30 days of number of cases
+
+
+
+## Data Credentials
+https://github.com/MoH-Malaysia/covid19-public
+
+
 
 ## PROBLEM STATEMENT
 ### To create a deep learning model using LSTM neural network to predict new cases (cases_new) in Malaysia using the past 30 days of number of cases with low MAPE value.
 
-## EXPLORATORY DATA ANALYSIS
 
+
+## EXPLORATORY DATA ANALYSIS
 ### Questions:
      1. What kind of data are we dealing with?
         - The data has 31 variables including date
@@ -38,6 +48,7 @@
 *This is the trend of covid-19 cases in Malaysia from 25th January 2020 till 4th December 2021.*
 
 
+
 ### MODEL DEVELOPMENT AND EVALUATION
 
  Model's MAPE value was around 0.14 when used 64 hidden nodes, 2 hidden layers, 0.2 as drop out rate and 100 epochs.
@@ -50,13 +61,16 @@
  - drop out rate: 0.05
  - epochs:500
  - 
+ - 
 ![model_architecture](https://user-images.githubusercontent.com/105897390/175527466-42e95f65-0a1c-4702-a172-1c3f8fd09be3.png)
 
 *This is architecture of our developed model* 
 
+
 ![Actual_vs_Predicted](https://user-images.githubusercontent.com/105897390/175527451-a1a3af53-d01a-4d0f-bf02-d0b64c3be9b0.png)
 
 *The graph depicts the predicted and actual number of Covid-19 cases from the model that we have developed.*
+
 
 ![MAPE_value](https://user-images.githubusercontent.com/105897390/175527801-98150cff-db87-43cc-abeb-600efab81b3c.png)
 
@@ -71,8 +85,11 @@
 
 *This tensorboard depicts the flunctuation of both loss and MAPE value of our finalized model's applied on train dataset.*
 
+
+
 ### CHALLENGES
  - model's accuracy increased just by 0.04 MAPE value.
+ 
 
 
 ### SUGGESTIONS
